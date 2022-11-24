@@ -1,0 +1,7 @@
+<h1>Директивы и Pipe</h1>
+<p>array_cats</p>
+<ul>
+  <li *ngFor = "let cat of array_cats">{{cat.name}}</li>
+</ul>
+<p>Date: {{date_now | date: 'dd.MM.yyyy'}}</p>
+<p>Add 5: {{number_now}} + 5 = {{number_now | add5Pipe}}</p>
